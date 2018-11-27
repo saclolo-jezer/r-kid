@@ -1,0 +1,668 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+	color: red;
+	font-family: 'Press Start 2P', cursive;
+}
+p {
+	color: white;
+	font-family: 'Press Start 2P', cursive;
+}
+
+footer {
+	border: 2px solid red;
+	background: black;
+}
+.clear:after {
+	content: "";
+	display: block;
+	display: block;
+}
+
+
+nav {
+ font-family: 'Press Start 2P', cursive;
+  width: 90%;
+  margin:0 auto;
+  background: #242424;
+  border: 5px solid red;
+  overflow: hidden;
+  }
+
+
+/*  ---------------------------------------landing page*/
+#landing-page-section {
+	background: black;
+	height: 100vh;
+	width: 100%;
+}
+
+#header-div {
+	background: black;
+	height: 100px;
+	width: 100%;
+}
+
+#section-div {
+	background: black;
+	height: 50vh;
+	width: 100%;
+	padding-bottom: 100px;
+}
+
+#msst {
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat; 
+	margin-top: 4px;
+	margin-bottom: 48px;
+}
+
+
+#footer-div {
+	padding-top: 100px;
+	background: black;
+	height: 50vh;
+	width: 100%;
+}
+
+#msst1 {
+	width: 100%;
+}
+.letter {
+	position: relative;
+	top: 25%;
+}
+.btn {
+	height: 80px;
+	width: 80px;
+	border: 3px solid white;
+	border-radius: 50%;
+
+}
+
+#l-s {
+	background: red;
+	height: 70px;
+	width: 70px;
+	border: 5px solid white;
+	border-radius: 50%;
+	padding: 50px;
+	
+}
+#s {
+	background: red;
+	position: absolute;
+	left: 10%;
+	top: -55%;
+
+}
+#a {
+	background: blue;
+	position: absolute;
+	left: 60%;
+	top: -1%;
+}	
+
+#b {
+	background: green;
+	position: absolute;
+	left: 75%;
+	top: -1%;
+}
+
+#c {
+	background: yellow;
+	position: absolute;
+	left: 90%;
+	top: -1%;
+}
+
+#d {
+	background: orange;
+	position: absolute;
+	left: 60%;
+	top: 120%;
+}
+
+#e {
+	background: green;
+	position: absolute;
+	left: 75%;
+	top: 120%;
+}
+
+#f {
+	background: yellow;
+	position: relative;
+	left: 47.70%;
+	top: 120%;
+}
+
+
+#x {
+	background: red;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+
+	position: absolute;
+	left: -20%;
+	top: 50%;
+}
+/*  --------------------------------end----landing page*/
+/*  ------------------------------------------home page*/
+#home-section1 {
+	height: 100vh;
+	background-image: url(../images/bg.jpg);
+
+}
+
+.box {
+	margin: 0 auto;
+	height: 620px;
+	width: 320px;
+
+}
+
+.ms {
+	height: 100px;
+	width: 100px;
+	border: 2px solid yellow;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+#ms1 {
+	display: inline-block;
+	animation-name: ms1;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms2 {
+	display: inline-block;
+	animation-name: ms2;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms3 {
+	display: inline-block;
+	animation-name: ms3;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms4 {
+	display: inline-block;
+	animation-name: ms4;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms5 {
+	display: inline-block;
+	animation-name: ms5;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms6 {
+	display: inline-block;
+	animation-name: ms6;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms7 {
+	display: inline-block;
+	animation-name: ms7;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms8 {
+	display: inline-block;
+	animation-name: ms8;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms9 {
+	display: inline-block;
+	animation-name: ms9;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms10 {
+	display: inline-block;
+	animation-name: ms10;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms11 {
+	display: inline-block;
+	animation-name: ms11;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms12 {
+	display: inline-block;
+	animation-name: ms12;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms13 {
+	display: inline-block;
+	animation-name: ms13;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms14 {
+	display: inline-block;
+	animation-name: ms14;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms15 {
+	display: inline-block;
+	animation-name: ms15;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms16 {
+	display: inline-block;
+	animation-name: ms16;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms17 {
+	display: inline-block;
+	animation-name: ms17;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+#ms18 {
+	display: inline-block;
+	animation-name: ms18;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+}
+
+
+
+@keyframes ms1 {
+	from {
+		transform: translateX( -500px) translateY( 0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+
+	}
+}
+
+@keyframes ms2 {
+	from {
+		transform: translateX( 500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms3 {
+	from {
+		transform: translateX(-500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms4 {
+	from {
+		transform: translateX(500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms5 {
+	from {
+		transform: translateX(500px) translateY( 0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms6 {
+	from {
+		transform: translateX(-500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms7 {
+	from {
+		transform: translateX(500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms8 {
+	from {
+		transform: translateX(-500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms9 {
+	from {
+		transform: translateX(-500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms10 {
+	from {
+		transform: translateX(500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms11 {
+	from {
+		transform: translateX(-500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms12 {
+	from {
+		transform: translateX(500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms13 {
+	from {
+		transform: translateX(500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms14 {
+	from {
+		transform: translateX(-500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms15 {
+	from {
+		transform: translateX(500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms16 {
+	from {
+		transform: translateX(500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms17 {
+	from {
+		transform: translateX(0px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes ms18 {
+	from {
+		transform: translateX(-500px) translateY(0px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+.sec {
+	background: black;
+}
+#home-section3 {
+	height: 70%;
+	width: 100%;
+	text-align: left;
+	padding-top: 60px;
+
+}
+
+
+#home-section4 {
+	height: 70%;
+	width: 100%;
+	text-align: right;
+	padding-top: 60px;
+
+}
+
+
+/*  ---------------------------------end------home page*/
+/*----------------------------------------advocate page*/
+#advocate-page {
+	background: black;
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+
+.pa {
+	color: red;
+}
+
+#advocate-page-footer {
+	background: black;
+	height: 100px;
+	width: 100%;
+}
+/*----------------------------------end---advocate page*/
+/*-----------------------------------------gallery page*/
+#section-gallery {
+	background: black;
+	min-height: 100vh;
+	padding-top: 40px;
+}
+.card {
+	height: 300px;
+	width: 100%;
+}
+.card-img-top {
+	height: 250px;
+}
+
+.col-row {
+	margin-top: 60px;
+}
+
+.row1 {
+	margin-top: 40px;
+}
+
+.card-div {
+	margin-top: 40px;
+	height: 100%;
+	width: 100%;
+	border: 2px solid red;
+}
+/*-----------------------------------end---gallery page*/
+/*  ---------------------------------------contact page*/
+
+
+#contact-footer {
+	background: black;
+	height: 100px;
+	width: 100%;
+	border: 2px solid red;
+}
+
+.sec-contact {
+	background: black;
+}
+
+#div-contact {
+	padding-bottom: 30px;
+}
+
+.pf {
+	padding-top: 30px;
+}
+
