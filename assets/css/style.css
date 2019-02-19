@@ -3,16 +3,22 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-h1{
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+h5{
 	color: red;
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Nova Flat', cursive;
 }
 p {
 	color: white;
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Nova Flat', cursive;
 }
 
-footer {
+.footer {
 	border: 2px solid red;
 	background: black;
 }
@@ -24,19 +30,31 @@ footer {
 
 
 nav {
- font-family: 'Press Start 2P', cursive;
-  width: 90%;
+ font-family: 'Nova Flat', cursive;
+ font-size: 16px;
+  width: 100%;
+  height: 48px;
   margin:0 auto;
-  background: #242424;
-  border: 5px solid red;
+  background: black;
+  border-bottom: 0.5px solid red;
   overflow: hidden;
+
   }
+
+  .nav-pic{
+  	height: 100px;
+  	width: 90px;
+  }
+
+ .nav-link {
+ 	margin-right: 24px;
+ }
 
 
 /*  ---------------------------------------landing page*/
 #landing-page-section {
 	background: black;
-	height: 100vh;
+	height: 130vh;
 	width: 100%;
 }
 
@@ -155,10 +173,65 @@ nav {
 }
 /*  --------------------------------end----landing page*/
 /*  ------------------------------------------home page*/
-#home-section1 {
+#gilid-l {
 	height: 100vh;
-	background-image: url(../images/bg.jpg);
+}
 
+#gilid-r {
+	height: 100vh;
+}
+
+.gilid-pic {
+	/*display: inline-block;*/
+	position: absolute;
+	visibility: hidden;
+	height: 100%;
+	width: 100%;
+}
+.gilid-gif {
+	/*display: inline-block;*/
+	margin-top: 150px;
+	margin-left: 50px;
+	padding-bottom: 100px;
+	position: absolute;
+	visibility: hidden;
+	height: 80%;
+	width: 300px;
+}
+
+#akuma-gif,
+#ken-gif,
+#chun-li-gif,
+#dan-gif,
+#sakura-gif,
+#ryu-gif {
+	width: 200px;
+}
+
+#black-gif {
+	padding-bottom: 200px;
+	margin-top: 50px;
+	height: 800px;
+	width: 250px;
+}
+#wolverine-gif {
+	height: 450px;
+	width: 200px;
+	padding-bottom: 50px;
+}
+
+.img-carou {
+	height: 100vh;
+	width: 100%;
+}
+#body-header{
+	min-height: 100%;
+	background-image: url(../images/charmvs1.jpg);
+
+}
+
+#home-section1 {
+	margin-top: 38px;
 }
 
 .box {
@@ -188,6 +261,11 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+#ms1:hover{
+	border:2px solid red;
+}
+
+
 #ms2 {
 	display: inline-block;
 	animation-name: ms2;
@@ -197,6 +275,10 @@ nav {
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
+}
+
+#ms2:hover {
+	border:2px solid red;
 }
 
 #ms3 {
@@ -210,6 +292,10 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+#ms3:hover {
+	border:2px solid red;
+}
+
 #ms4 {
 	display: inline-block;
 	animation-name: ms4;
@@ -219,6 +305,10 @@ nav {
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
+}
+
+#ms4:hover {
+	border:2px solid red;
 }
 
 #ms5 {
@@ -232,6 +322,10 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+#ms5:hover {
+	border:2px solid red;
+}
+
 #ms6 {
 	display: inline-block;
 	animation-name: ms6;
@@ -241,6 +335,10 @@ nav {
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
+}
+
+#ms6:hover {
+	border:2px solid red;
 }
 
 #ms7 {
@@ -254,6 +352,10 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+#ms7:hover {
+	border:2px solid red;
+}
+
 #ms8 {
 	display: inline-block;
 	animation-name: ms8;
@@ -263,6 +365,10 @@ nav {
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
+}
+
+#ms8:hover {
+	border:2px solid red;
 }
 
 #ms9 {
@@ -276,6 +382,10 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+#ms9:hover {
+	border:2px solid red;
+}
+
 #ms10 {
 	display: inline-block;
 	animation-name: ms10;
@@ -285,6 +395,10 @@ nav {
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
+}
+
+#ms10:hover {
+	border:2px solid red;
 }
 
 #ms11 {
@@ -298,6 +412,10 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+#ms11:hover {
+	border:2px solid red;
+}
+
 #ms12 {
 	display: inline-block;
 	animation-name: ms12;
@@ -307,6 +425,10 @@ nav {
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
+}
+
+#ms12:hover {
+	border:2px solid red;
 }
 
 #ms13 {
@@ -320,6 +442,10 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+#ms13:hover {
+	border:2px solid red;
+}
+
 #ms14 {
 	display: inline-block;
 	animation-name: ms14;
@@ -329,6 +455,10 @@ nav {
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
+}
+
+#ms14:hover {
+	border:2px solid red;
 }
 
 #ms15 {
@@ -342,6 +472,10 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+#ms15:hover {
+	border:2px solid red;
+}
+
 #ms16 {
 	display: inline-block;
 	animation-name: ms16;
@@ -351,6 +485,10 @@ nav {
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
+}
+
+#ms16:hover {
+	border:2px solid red;
 }
 
 #ms17 {
@@ -364,6 +502,10 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+#ms17:hover {
+	border:2px solid red;
+}
+
 #ms18 {
 	display: inline-block;
 	animation-name: ms18;
@@ -373,6 +515,10 @@ nav {
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-fill-mode: forwards;
+}
+
+#ms18:hover {
+	border:2px solid red;
 }
 
 
@@ -576,66 +722,217 @@ nav {
 	}
 }
 
-.sec {
-	background: black;
+body {
+	background-image: url(../images/charmvs1.jpg);
+	min-height: 100%;
+}
+/*.sec {
+	background: black;*/
+/*}*/
+
+.sec-allo1 {
+	background-image: url(../images/wvr1.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 45vh;
+	width: 100%;
+}
+
+.h-carou {
+	height: 300px;
 }
 #home-section3 {
-	height: 70%;
+	height: 50%;
 	width: 100%;
 	text-align: left;
-	padding-top: 60px;
 
 }
 
+.sec-allo2 {
+	background-image: url(../images/hvz.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 45vh;
+	width: 100%;
+}
 
 #home-section4 {
-	height: 70%;
+	height: 50%;
 	width: 100%;
-	text-align: right;
-	padding-top: 60px;
+	text-align: left;
 
 }
+
+.sec-allo3 {
+	background-image: url(../images/cvr.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 45vh;
+	width: 100%;
+}
+/*#home-page-footer {
+	height: 42px;
+}*/
+
+
 
 
 /*  ---------------------------------end------home page*/
 /*----------------------------------------advocate page*/
 #advocate-page {
-	background: black;
-	padding-top: 50px;
-	padding-bottom: 200px;
+	padding: 50px;
 }
 
+#advocate-mission {
+	font-size: 5px;
+	height: 100vh;
+	margin-top: 5px;
+}
+
+#advocate-vision {
+	font-size: 5px;
+	height: 100vh;
+	margin-top: 5px;
+}
+
+#h1-mission,
+#h1-vision{
+	color: yellow;
+}
 .pa {
-	color: red;
+	color: yellow;
+	font-size: 25px;
+	
 }
 
-#advocate-page-footer {
+/*#advocate-page-footer {
 	background: black;
 	height: 100px;
+	width: 100%;
+}*/
+
+.ch{
+	height: 100px;
+	width: 80px;
+}
+#kenyw,
+#wolyw {
+	height: 450px;
 	width: 100%;
 }
 /*----------------------------------end---advocate page*/
 /*-----------------------------------------gallery page*/
-#section-gallery {
-	background: black;
-	min-height: 100vh;
-	padding-top: 40px;
+#top-gallery {
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
-.card {
-	height: 300px;
+
+#h1 {
+	color: white;
+}
+.pic1 {
+	height: 100%;
+	width: 110px;
+}
+
+/*#cyclopspic:hover{
+	height: 250px;
+	width: 
+}
+#spidermanpic
+#captainpic
+#shumapic
+#wolpic
+#hulkpic
+#blackpic
+#omegapic
+#ryupic
+#kenpic
+#danpic
+#sakurapic
+#akumapic
+#chunlipic
+#zangpic
+#bisonpic
+#dhalsimpic*/
+
+
+#gallery-page-header {
+	height: 100vh;
 	width: 100%;
 }
+
+
+/*#scroll {
+	height: 60vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: black;*/
+	/*::-webkit-scrollbar              {}
+	::-webkit-scrollbar-button       {}
+	::-webkit-scrollbar-track        {}
+	::-webkit-scrollbar-track-piece  {  }
+	::-webkit-scrollbar-thumb        {  }
+	::-webkit-scrollbar-corner       { 
+		background-color: black;
+	 }
+	::-webkit-resizer                { }*/
+}
+
+/*.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}*/
+
+
+.card {
+	height: 200px;
+	width: 100%;
+}
+
+#left{
+	background-color: black;
+	height: 100vh;
+}
+
+/*#left-gal{
+	background-color: black;
+	height: 300vh;
+	width: 100%;
+
+}*/
+
+/*#right-gal {
+	background-color: black;
+	height: 300vh;
+	width: 100%;
+}*/
+/*#right{
+	background-color: red;
+	height: 100vh;
+}*/
+h6{
+	font-family: 'Nova Flat', cursive;
+
+}
+
+.bye {
+	font-family: 'Nova Flat', cursive;
+}
+
 .card-img-top {
 	height: 250px;
 }
 
-.col-row {
-	margin-top: 60px;
+.card-title {
+	color: white;
 }
 
-.row1 {
-	margin-top: 40px;
-}
+/*.row {
+	margin-top: 60px;
+}*/
 
 .card-div {
 	margin-top: 40px;
@@ -643,11 +940,48 @@ nav {
 	width: 100%;
 	border: 2px solid red;
 }
+
+.card-bg {
+	background-color: black;
+}
+.div-margin {
+	margin-left: 1px;
+}
+
+.mid-gal {
+	/*background-image: url(../images/mvs3e.jpg);*/
+
+	height: 400px;
+	/*background-color: black;*/
+	/*background-position: center;*/
+	/*background: contain;*/
+}
+
+.prof {
+	height: 300px;
+	width: 350px;
+}
+
+.prof-p {
+	height: 150px;
+	text-align: center;
+	/*overflow: scroll;*/
+}
+
+.gif{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+
+
+
 /*-----------------------------------end---gallery page*/
 /*  ---------------------------------------contact page*/
 
 
-#contact-footer {
+.page-footer {
 	background: black;
 	height: 100px;
 	width: 100%;
@@ -666,3 +1000,6 @@ nav {
 	padding-top: 30px;
 }
 
+.h {
+	color: red;
+}

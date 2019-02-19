@@ -7,8 +7,11 @@
 
 	<title>R-kid</title>
 
+	<!-- fav-icon -->
+	<link rel="stylesheet" type="images/gif/png" href="assets/images/msst2.png">
+
 	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
 
 	<!-- fontawesome Icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -21,10 +24,16 @@
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- aos cdn -->
+	<link rel="stylesheet" type="text/css" href="assets/css/aos.css">
+
+	<!-- js aos -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	
 </head>
 <body>
-	<nav id="navbar" class="container-fluid navbar navbar-expand-lg navbar-dark sticky-top" style="background-image: url(assets/images/hh1.jpeg);">
+	<nav id="navbar" class="container-fluid navbar navbar-expand-lg navbar-dark sticky-top">
 		<a class="navbar-brand" href="home.html">
 			<i class="fas fa-gamepad"></i>  R-kid
 		</a>
@@ -36,7 +45,7 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
 					<div class="item-container">
-					<div class="item-top"><a class="nav-link" href="home.html">Home</a></div>
+					<div class="item-top"><a class="nav-link" href="home.html">Home </a></div>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -52,142 +61,559 @@
 				<li class="nav-item">
 					<div class="item-container">
 						<div class="item-top"><a class="nav-link" href="contact.html">Contact</a></div>
-				
 					</div>					
 				</li>
 			</ul>
 		</div>
 	</nav> <!-- end of navbar -->
-	<section id="section-gallery" class="container-fluid">
+
+	<header id="gallery-page-header" class="container-fluid d-none d-md-none d-lg-block">
+		<hr id="top-gal">
+		<hr>
+		<hr>
+		<hr>
+		<div id="top-gallery" class="container-fluid d-none d-md-none d-lg-block">
+			<div class="row">
+				<div class="col-lg-1">
+					
+				</div>
+				<div class="col-lg-1">
+					
+				</div>
+				<div class="col-lg-1">
+					<a href="#cyclops"><img id="cyclopspic" class="pic1" src="assets/images/cyclops1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#spiderman"><img id="spidermanpic" class="pic1" src="assets/images/spiderman.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#captain-america"><img id="captainpic" class="pic1" src="assets/images/captain1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#shuma-gorath"><img id="shumapic" class="pic1" src="assets/images/shuma1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#wolverine"><img id="wolpic" class="pic1" src="assets/images/wol1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#hulk"><img id="hulkpic" class="pic1" src="assets/images/hulk1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#black-heart"><img id="blackpic" class="pic1" src="assets/images/black1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#omega-red"><img id="omegapic" class="pic1" src="assets/images/omega1.jpg"></a>
+				</div><!-- end of 1pic -->
+			</div><!-- end of top -->
+			<div class="row">
+				<div class="col-lg-1">
+					
+				</div>
+				<div class="col-lg-1 text-center">
+					<img class="pic1" src="assets/images/msst2.png">
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#ryu"><img id="ryupic" class="pic1" src="assets/images/ryu11.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#ken"><img id="kenpic" class="pic1" src="assets/images/ken1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#dan"><img id="danpic" class="pic1" src="assets/images/dan1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#sakura"><img id="sakurapic" class="pic1" src="assets/images/sakura1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#akuma"><img id="akumapic" class="pic1" src="assets/images/akuma1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#chun-li"><img id="chunlipic" class="pic1" src="assets/images/chunli1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#zangief"><img id="zangpic" class="pic1" src="assets/images/zang1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#bison"><img id="bisonpic" class="pic1" src="assets/images/bison1.jpg"></a>
+				</div><!-- end of 1pic -->
+				<div class="col-lg-1">
+					<a href="#dhalsim"><img id="dhalsimpic" class="pic1" src="assets/images/dhalsim1.jpg"></a>
+				</div><!-- end of 1pic -->
+			</div><!-- end of bottom -->
+		</div> <!-- end of col -->
+	</header>
+		
+	<section id="section-gallery-1" class="container-fluid">
 		<div class="row">
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-2">
-				<div class="card" data-toggle="modal" data-target="#modal-1">
-					<img  class="card-img-top img-fluid" src="assets/images/cyclop1.png">
-					<h3 class="card-title text-center">Cyclop</h3>
-				</div> <!-- end of card -->
-			</div>
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-2">
-					<img  class="card-img-top img-fluid" src="assets/images/spiderman1.png">
-					<h3 class="card-title text-center">Spider-man</h3>
-				</div> <!-- end of card -->
-			</div>
-
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-3">
-					<img  class="card-img-top img-fluid" src="assets/images/captain1.png">
-					<h3 class="card-title text-center">Captain America</h3>
-				</div> <!-- end of card -->
-			</div>
+			<div class="col-6">
+				<section class="container-fluid my-5">
+					<hr id="cyclops">
+					<hr>
+					<hr>
+					<hr>
+					<div class="row justify-content-right my-10  " >
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-1">
+								<img  class="card-img-top img-fluid" src="assets/images/cyclop1.png">
+								<h6 id="spiderman" class="card-title text-center my-4">Cyclops</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down"
+     							data-aos-duration="2000" src="assets/images/cyclops2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/cyclop.gif">
+								</div>
+								<div class="prof-p">
+									<p>Scott Summers</p>
+									<p>Marvel</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-2">
+								<img  class="card-img-top img-fluid" src="assets/images/spiderman1.png">
+								<h6 id="captain-america" class="card-title text-center my-4">Spider-man</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/spider2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/spiderman.gif">
+								</div>
+								<div class="prof-p">
+									<p>Peter Parker</p>
+									<p>Marvel</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-3">
+								<img  class="card-img-top img-fluid" src="assets/images/captain1.png">
+								<h6 id="shuma-gorath" class="card-title text-center my-4">Captain America</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/captain2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/captain.gif">
+								</div>
+								<div class="prof-p">
+									<p>Steve Rogers</p>
+									<p>Marvel</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-4">
+								<img  class="card-img-top img-fluid" src="assets/images/shima1.png">
+								<h6 id="wolverine" class="card-title text-center my-4">Shuma-Gorath</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/shumar2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/shuma.gif">
+								</div>
+								<div class="prof-p">
+									<p>Shuma-Gorath</p>
+									<p>Marvel</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-5">
+								<img  class="card-img-top img-fluid" src="assets/images/wol1.png">
+								<h6 id="hulk" class="card-title text-center my-4">Wolverine</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/wol2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/wolverine.gif">
+								</div>
+								<div class="prof-p">
+									<p>James Howlett (Logan)</p>
+									<p>Marvel</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-6">
+								<img  class="card-img-top img-fluid" src="assets/images/hul1.png">
+								<h6 id="black-heart" class="card-title text-center my-4">Hulk</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/hulk2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/hulk.gif">
+								</div>
+								<div class="prof-p">
+									<p>Bruce Banner</p>
+									<p>Marvel</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-7">
+								<img  class="card-img-top img-fluid" src="assets/images/black1.png">
+								<h6 id="omega-red" class="card-title text-center my-4">Black Heart</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/bl.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/black.gif">
+								</div>
+								<div class="prof-p">
+									<p>Black Heart</p>
+									<p>Marvel</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-8">
+								<img  class="card-img-top img-fluid" src="assets/images/red1.png">
+								<h6 class="card-title text-center my-4">Omega Red</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/omega.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/omega.gif">
+								</div>
+								<div class="prof-p">
+									<p>Arkady Gregorivich Rossovich</p>
+									<p>Marvel</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+				</section>
+			</div><!-- end of left -->
+			<div id="right-gal" class="col-6">
+				<section class="container-fluid my-5">
+					<hr id="ryu">
+					<hr>
+					<hr>
+					<hr>
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-9">
+								<img  class="card-img-top img-fluid" src="assets/images/ryu1.png">
+								<h6 id="ken" class="card-title text-center my-4">Ryu</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/ryu2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/ryu.gif">
+								</div>
+								<div class="prof-p">
+									<p>Ryu</p>
+									<p>Street Fighter</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-10">
+								<img  class="card-img-top img-fluid" src="assets/images/ken1.png">
+								<h6 id="dan" class="card-title text-center my-4">Ken</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/ken2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/ken.gif">
+								</div>
+								<div class="prof-p">
+									<p>Ken</p>
+									<p>Street Fighter</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-11">
+								<img  class="card-img-top img-fluid" src="assets/images/dan1.png">
+								<h6 id="sakura" class="card-title text-center my-4">Dan</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/dan2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/dan.gif">
+								</div>
+								<div class="prof-p">
+									<p>Dan</p>
+									<p>Street Fighter</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-12">
+								<img  class="card-img-top img-fluid" src="assets/images/sakura1.png">
+								<h6 id="akuma" class="card-title text-center my-4">Sakura</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/sakura2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/sakura.gif">
+								</div>
+								<div class="prof-p">
+									<p>Sakura</p>
+									<p>Street Fighter</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-13">
+								<img  class="card-img-top img-fluid" src="assets/images/akuma1.png">
+								<h6 id="chun-li" class="card-title text-center my-4">Akuma</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/akuma111.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/akuma.gif">
+								</div>
+								<div class="prof-p">
+									<p>Akuma</p>
+									<p>Street Fighter</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-14">
+								<img  class="card-img-top img-fluid" src="assets/images/chun-li1.png">
+								<h6 id="zangief" class="card-title text-center my-4">Chun-li</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/chunli2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/chun-li.gif">
+								</div>
+								<div class="prof-p">
+									<p>Chun-Li</p>
+									<p>Street Fighter</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-15">
+								<img  class="card-img-top img-fluid" src="assets/images/zangief1.png">
+								<h6 id="bison" class="card-title text-center my-4">Zangief</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/zangief2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/zangief.gif">
+								</div>
+								<div class="prof-p">
+									<p>Zangief</p>
+									<p>Street Fighter</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-16">
+								<img  class="card-img-top img-fluid" src="assets/images/bison1.png">
+								<h6 id="dhalsim" class="card-title text-center my-4">Bison</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/bison2.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/bison.gif">
+								</div>
+								<div class="prof-p">
+									<p>Bison</p>
+									<p>Street Fighter</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+					<div class="row justify-content-right my-10 ">
+						<div class="col-12 col-md-4 col-lg-3">
+							<div class="card card-bg" data-aos="zoom-in-up" data-toggle="modal" data-target="#modal-17">
+								<img  class="card-img-top img-fluid" src="assets/images/dhalsim1.png">
+								<h6 class="card-title text-center my-4">Dhalsim</h6>
+							</div> <!-- end of card -->
+						</div><!-- end of col -->
+						<div class="mid-gal row col-12 col-md-7 col-lg-9 div-margin" data-aos="flip-left">
+							
+								<img class="prof col-6 col-md-4 col-lg-6" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+     							data-aos-duration="2000" src="assets/images/dh.png">
+						
+							<div class="col-6">
+								<div class="gif">
+									<img src="assets/images/dhalsim.gif">
+								</div>
+								<div class="prof-p">
+									<p>Dhalsim</p>
+									<p>Street Fighter</p>
+								</div>
+								<div class="text-right">
+									<a href="#top-gal">▲</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- end of row -->
+				</section>
+			</div><!-- end of right -->
+		</div><!-- end of div container -->
+		<div class="row">
+			<a href="#top" class="col-12 text-center"><--- back to top --->
 		</div>
-		<div class="col-row row">
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-2">
-				<div class="card" data-toggle="modal" data-target="#modal-4">
-					<img  class="card-img-top img-fluid" src="assets/images/shima1.png">
-					<h3 class="card-title text-center">Shuma-Gorath</h3>
-				</div> <!-- end of card -->
-			</div>
-
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-5">
-					<img  class="card-img-top img-fluid" src="assets/images/wol1.png">
-					<h3 class="card-title text-center">Wolverine</h3>
-				</div> <!-- end of card -->
-			</div>
-
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-6">
-					<img  class="card-img-top img-fluid" src="assets/images/hul1.png">
-					<h3 class="card-title text-center">Hulk</h3>
-				</div> <!-- end of card -->
-			</div>
-		</div>
-		<div class="col-row row">
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-2">
-				<div class="card" data-toggle="modal" data-target="#modal-7">
-					<img  class="card-img-top img-fluid" src="assets/images/black1.png">
-					<h3 class="card-title text-center">Black Heart</h3>
-				</div> <!-- end of card -->
-			</div>
-
-			<div class="col-12 col-md-4  col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-8">
-					<img  class="card-img-top img-fluid" src="assets/images/red1.png">
-					<h3 class="card-title text-center">Omega Red</h3>
-				</div> <!-- end of card -->
-			</div>
-		</div>
-		<div class=" row1 row">
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-2">
-				<div class="card" data-toggle="modal" data-target="#modal-9">
-					<img  class="card-img-top img-fluid" src="assets/images/ryu1.png">
-					<h3 class="card-title text-center">Ryu</h3>
-				</div> <!-- end of card -->
-			</div>
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-10">
-					<img  class="card-img-top img-fluid" src="assets/images/ken1.png">
-					<h3 class="card-title text-center">Ken</h3>
-				</div> <!-- end of card -->
-			</div>
-
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-11">
-					<img  class="card-img-top img-fluid" src="assets/images/dan1.png">
-					<h3 class="card-title text-center">Dan</h3>
-				</div> <!-- end of card -->
-			</div>
-		</div>
-		<div class="col-row row">
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-2">
-				<div class="card" data-toggle="modal" data-target="#modal-12">
-					<img  class="card-img-top img-fluid" src="assets/images/sakura1.png">
-					<h3 class="card-title text-center">Sakura</h3>
-				</div> <!-- end of card -->
-			</div>
-
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-13">
-					<img  class="card-img-top img-fluid" src="assets/images/akuma1.png">
-					<h3 class="card-title text-center">Akuma</h3>
-				</div> <!-- end of card -->
-			</div>
-
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-14">
-					<img  class="card-img-top img-fluid" src="assets/images/chun-li1.png">
-					<h3 class="card-title text-center">Chun-li</h3>
-				</div> <!-- end of card -->
-			</div>
-		</div>
-		<div class="col-row row">
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-2">
-				<div class="card" data-toggle="modal" data-target="#modal-15">
-					<img  class="card-img-top img-fluid" src="assets/images/zangief1.png">
-					<h3 class="card-title text-center">Zangief</h3>
-				</div> <!-- end of card -->
-			</div>
-
-			<div class="col-12 col-md-4  col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-16">
-					<img  class="card-img-top img-fluid" src="assets/images/bison1.png">
-					<h3 class="card-title text-center">Bison</h3>
-				</div> <!-- end of card -->
-			</div>
-
-			<div class="col-12 col-md-4 col-lg-2 offset-lg-1">
-				<div class="card" data-toggle="modal" data-target="#modal-17">
-					<img  class="card-img-top img-fluid" src="assets/images/dhalsim1.png">
-					<h3 class="card-title text-center">Dhalsim</h3>
-				</div> <!-- end of card -->
-			</div>
-		</div>
-
+	</section>
+	<section class="container-fluid">
 		<div id="modal-1" class="modal fade">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -197,7 +623,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -207,7 +633,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -217,7 +643,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -227,7 +653,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -237,7 +663,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -247,7 +673,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -257,7 +683,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -267,7 +693,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -277,7 +703,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -287,7 +713,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -297,7 +723,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -307,7 +733,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -317,7 +743,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -327,7 +753,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -337,7 +763,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -347,7 +773,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -357,7 +783,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+	
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -367,17 +793,17 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
 					</header>
 					<div class="modal-body">
-						<img class="img-fluid" src="assets/images/ken.jpg">
+						<img class="img-fluid" src="assets/images/ken.png">
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -387,17 +813,17 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
 					</header>
 					<div class="modal-body">
-						<img class="img-fluid" src="assets/images/dan.jpg">
+						<img class="img-fluid" src="assets/images/dan.png">
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -407,7 +833,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -417,7 +843,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -427,7 +853,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -437,7 +863,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -447,7 +873,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -457,7 +883,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -467,7 +893,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -477,7 +903,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -487,7 +913,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -497,7 +923,7 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
@@ -507,7 +933,7 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<header class="modal-header">
-						<h5 class="modal-title">Wall</h5>
+						<h5 class="modal-title"></h5>
 						<button class="close" data-dismiss="modal">
 							<span>&times;</span>
 						</button>
@@ -517,14 +943,14 @@
 					</div><!-- end modal body -->
 
 					<footer class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">bye</button>
+						
 					</footer>
 				</div> <!-- end of modal content -->
 			</div><!-- end of nested container -->
 		</div>
 		
 	</section>
-	<footer id="gallery-page-footer" class="container-fluid text-center">
+	<footer id="gallery-page-footer" class="page-footer container-fluid text-center footer">
 		<p class="pf">Jezer Pedida Saclolo | R-kid <a href="https://www.facebook.com/climaco.trinidad"><i class="fab fa-facebook-square"></i></a> <a href=""><i class="fas fa-envelope-square"></i></a></p>
 	</footer>
 	
@@ -541,5 +967,16 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="aos.js"></script>
+
+	<script type="text/javascript">
+		AOS.init(
+			{
+				duration: 1000,
+			});
+	</script>
+
+
 </body>
 </html>
